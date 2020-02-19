@@ -1,0 +1,3 @@
+Le site à été créer en 2015-2016 par un groupe d'étudiant.
+
+Puis il a été refactoriser en 2019-2020 par: Baurens Maxime, Hajjaj Jillali, Joubert Jeremy, Rouzes Thomas.

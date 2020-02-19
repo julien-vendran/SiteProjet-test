@@ -1,0 +1,23 @@
+.bouton {
+  width: 150px;
+  height: 60px;
+  background-color: #FF5660;
+  line-height: 60px;
+  text-align: center;
+  color: #FFF;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+.bouton:hover {
+  cursor: pointer;
+}
+
+span {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  max-width: 300px;
+  border: 1px solid #000;
+  margin: 15px auto 0 auto;
+}

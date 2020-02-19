@@ -1,0 +1,10 @@
+{
+  "version" : "0.1",
+  "name" : "Confirmer son goupe",
+  "level" : [
+    "0","1","2"
+  ],
+  "icon" : "conference_call.png",
+  "Date" : "09/12/2019",
+  "lastUpdate" : "09/12/2019"
+}

@@ -1,0 +1,183 @@
+a.new {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Raleway-Light';
+  padding: 20px 50px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #ff5660;
+}
+
+a.new:hover {
+  text-decoration: none;
+}
+
+a.new img {
+  height: 30px;
+}
+
+
+#planning {
+  list-style: none;
+  padding: 0; margin: 0;
+  width: 100%;
+}
+
+#planning ul {
+  list-style: none;
+  padding: 0;
+}
+
+#planning ul > li.title {
+  background: #E1E4E6;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 5px;
+  color: #3B4C5D;
+  border-top: 1px solid #3B4C5D;
+  border-bottom: 1px solid #3B4C5D;
+}
+
+#planning ul > li:not(.title) {
+  background: #FAFAFA;
+  font-size: 17px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#planning ul > li:not(.title):hover {
+  background: #EAEAEA;
+}
+
+#planning ul > li:not(.title) > span.day {
+  display: inline-block;
+  width: 50px; height: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #FF5661;
+  border: 1px solid #E85055;
+  border-radius: 50%;
+}
+
+#planning ul > li:not(.title) > span.day .w {
+  line-height: 20px;
+  font-size: 10px;
+  display: block;
+}
+
+#planning ul > li:not(.title) > span.day .d {
+  line-height: 40px;
+  font-size: 20px;
+  display: block;
+  margin-top: -10px;
+}
+
+#planning ul > li:not(.title) > span.title {
+  display: block;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 60px;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  color: #3B4C5D;
+  font-weight: 500;
+}
+
+#planning ul > li:not(.title) > span.promo {
+  display: inline-block;
+  float: left;
+  margin-top: -18px;
+  margin-left: 60px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #748D9A;
+  font-weight: 500;
+}
+
+#planning ul > li:not(.title) > span.desc {
+  display: block;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  padding-left: 60px;
+  color: #748D9A;
+  font-weight: 300;
+}
+
+#_datepicker {
+  min-height: 322px;
+}
+
+.ui-datepicker-prev {
+  float: left;
+  display: block;
+  padding: 30px;
+  cursor: pointer;
+  margin-top: -15px;
+}
+
+.ui-datepicker-next {
+  float: right;
+  display: block;
+  padding: 30px;
+  cursor: pointer;
+  margin-top: -15px;
+}
+
+.ui-datepicker-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  background: #E1E4E6;
+  font-size: 15px;
+  line-height: 30px;
+  color: #3B4C5D;
+  border-top: 1px solid #3B4C5D;
+  border-bottom: 1px solid #3B4C5D;
+}
+
+.ui-datepicker-calendar {
+  width: 250px;
+  margin: auto;
+  text-align: center;
+}
+
+.ui-datepicker-calendar thead {
+  display: none;
+}
+
+.ui-datepicker-calendar td {
+  padding: 5px;
+}
+
+.ui-datepicker-calendar td a {
+  border: 2px solid #FF5661;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px; height: 30px;
+  line-height: 26px;
+  color: #FF5661;
+}
+
+.ui-datepicker-calendar td.ui-datepicker-unselectable a {
+  border: 2px solid #FF5661;
+  border-radius: 50%;
+  display: inline-block;
+  width: 30px; height: 30px;
+  line-height: 26px;
+  color: #FF5661;
+}
+
+.ui-datepicker-calendar td a.ui-state-hover, .ui-datepicker-calendar td a.ui-state-active {
+  text-decoration: none;
+  background: #FF5661;
+  color: #FFFFFF;
+}

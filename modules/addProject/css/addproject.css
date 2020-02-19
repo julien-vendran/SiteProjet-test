@@ -1,0 +1,25 @@
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Raleway-Light';
+  color: #ff5660;
+}
+
+.character-checkbox {
+  text-align: right;
+  line-height: 22px;
+  font-size: 25px;
+  color: #FF5660;
+}
+
+#project_cotuteur option {
+  text-transform: capitalize;
+}
+
+h3 {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Raleway-Light';
+  color: #ff5660;
+}
+

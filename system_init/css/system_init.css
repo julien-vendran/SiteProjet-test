@@ -1,0 +1,20 @@
+
+#submit-btn {
+  width: 200px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  background-color: #FF5660;
+  margin: 0 auto 10px auto;
+  text-transform: uppercase;
+  color: #FFF;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+}
+
+#submit-btn i {
+  font-size: 25px;
+  line-height: 50px;
+}

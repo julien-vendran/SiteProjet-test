@@ -1,0 +1,17 @@
+#confirm{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+}
+#confirm a{
+	color: red;
+	padding:10px 10px 10px 10px;
+	background:#f5f5f5;
+	border-radius:2px;
+	border:1px solid #ccc;
+	box-shadow:1px 1px 3px #999;
+}
+#confirm a:hover{
+	font-weight: bold;
+	text-decoration: none;
+}

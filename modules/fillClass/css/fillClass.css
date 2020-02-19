@@ -1,0 +1,139 @@
+#group {
+  text-align: left;
+  padding: 20px 50px;
+  cursor: pointer;
+}
+#group:hover, #group.ui-state-highlight {
+  background: #FAFAFA;
+}
+#group.drop-hover {
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.09);
+}
+#group img {
+  height: 30px;
+  margin-right: 16px;
+  margin-left: 10px;
+  float: left;
+}
+#group .name {
+  display: block;
+  color: #748D9A;
+  font-size: 20px;
+  line-height: 20px;
+}
+#group .info {
+  color: #AAAAAA;
+  font-size: 14px;
+  line-height: 10px;
+}
+#group .nb {
+  float: right;
+  font-size: 13px;
+  color: #333333;
+  position: relative;
+  top: -40px;
+  line-height: 70px;
+}
+#group .loader {
+  float: right;
+  font-size: 13px;
+  color: #748D9A;
+  position: relative;
+  top: -40px;
+  right: -9px;
+  display: none;
+}
+#group .loader i {
+  line-height: 70px;
+}
+
+
+#group.load .nb {
+  display: none;
+}
+#group.load .loader {
+  display: inline-block;
+}
+
+#searchform .userlist li {
+  height: 0;
+  opacity: 0;
+  transition: height 0.2s, opacity 0.2s;
+}
+
+.userlist {
+  list-style: none;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.userlist li {
+  text-align: left;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: height 0.2s;
+}
+.userlist li:hover {
+  background: #FAFAFA;
+}
+.userlist li:hover i {
+  color: #FF5661;
+}
+.userlist li .icon {
+  height: 30px; width: 30px;
+  background-image: url("../icon/student.png");
+  background-size: contain;
+  background-position: center;
+  float: left;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.userlist li .username {
+  color: #748D9A;
+  font-size: 20px;
+}
+.userlist li .userid {
+  color: #333333;
+  font-size: 15px;
+}
+.userlist li i {
+  float: right;
+  color: #AAAAAA;
+  font-size: 13px;
+  line-height: 54px;
+}
+
+.userlist .ui-sortable-helper {
+  opacity: 0.8 !important;
+  width: 300px !important;
+}
+.userlist .ui-sortable-helper .username {
+  display: block;
+  line-height: 30px;
+}
+.userlist .ui-sortable-helper .userid {
+  display: block;
+  line-height: 20px;
+  margin-top: -56px !important;
+  margin-left: 30px;
+}
+
+.userlist .ui-sortable-placeholder {
+  display: block;
+  height: 52px !important; width: 100% !important;
+}
+
+#tuto {
+  color: #748D9A;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Raleway-Light', sans-serif;
+}

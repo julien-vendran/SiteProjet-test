@@ -1,0 +1,46 @@
+
+input[name='recherche'] {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.groupe {
+  width: 400px;
+  border: 1px solid #222;
+  border-radius: 5px;
+  margin: 10px auto;
+}
+
+.groupe:hover {
+  cursor: pointer;
+}
+
+.groupe:hover h3 {
+  color: #FF5660;
+}
+
+h3 {
+  display: block;
+  text-align: center;
+  margin: 5px auto 10px auto;
+  text-transform: capitalize;
+  transition: all .2s;
+}
+
+.titre {
+  text-align: center;
+}
+
+.membres {
+  display: none;
+}
+
+.groupe:hover .membres {
+  display: block;
+}
+
+.membres li {
+  text-transform: capitalize;
+}

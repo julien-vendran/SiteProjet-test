@@ -1,0 +1,10 @@
+{
+  "version" : "0.1",
+  "name" : "Afficher le planning",
+  "level" : [
+    "0", "1", "2", "3"
+  ],
+  "icon" : "calendar.png",
+  "Date" : "09/01/2015",
+  "lastUpdate" : "09/01/2015"
+}

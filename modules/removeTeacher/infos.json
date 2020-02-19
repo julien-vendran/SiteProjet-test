@@ -1,0 +1,10 @@
+{
+  "version" : "0.1",
+  "name" : "Supprimer un prof",
+  "level" : [
+    "4"
+  ],
+  "icon" : "removeTeacher.png",
+  "Date" : "02/11/2019",
+  "lastUpdate" : "02/11/2019"
+}

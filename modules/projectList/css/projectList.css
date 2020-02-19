@@ -1,0 +1,156 @@
+
+/* Conteneur de la liste */
+.container {
+  padding: 20px;
+  text-align: left;
+  margin: auto;
+  margin-bottom: 25px;
+  max-width: 700px;
+  background: rgba(255,255,255,0.9);
+    margin-top: 10px !important;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09);
+  border-radius: 2px;
+}
+
+.none{
+    display: none!important;
+}
+
+.container.load {
+  color: #ff5660;
+  text-align: center;
+  font-size: 30px;
+}
+
+ul.projectlist {
+  list-style: none;
+  padding: 0;
+}
+
+ul.projectlist li {
+  border-bottom: 1px solid #C4C8CC;
+  padding-top: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ul.projectlist li:hover {
+  opacity: 1;
+}
+
+ul.projectlist li .projecthead {
+    display: flex;
+}
+
+ul.projectlist li .level {
+    display: inline-block;
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #555;
+    margin-right: 15px;
+}
+
+ul.projectlist li .actif {
+    display: inline-block;
+    font-size: 20px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    color: #d32f2f;
+    margin-right: 15px;
+}
+
+ul.projectlist li .title {
+  display: inline-block;
+  font-size: 20px;
+  height: 25px;
+  line-height: 25px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #555;
+}
+
+ul.projectlist li .desc {
+  display: inline-block;
+  font-size: 16px;
+  height: 40px;
+  width: 100%;
+  line-height: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  color: #888;
+}
+
+#_infos-modal .modal-content {
+  border-radius: 2px !important;
+  border: none !important;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.09) !important;
+}
+
+#_infos-modal .modal-content .modal-title h2 {
+  color: #FF5661;
+  font-family: 'Raleway-Light', serif;
+}
+
+#_infos-modal .modal-content .modal-body p.desc {
+  font-size: 16px;
+  line-height: 25px;
+  font-family: 'Raleway', serif;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+#_infos-modal .modal-content .modal-body p.rem {
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Raleway-Bold', serif;
+  text-align: left;
+  color: #3B4C5D;
+  opacity: 0.6;
+}
+
+#_infos-modal .modal-content .modal-body ul.tuteurs {
+  font-size: 14px;
+  line-height: 20px;
+  height: 20px;
+  font-family: 'Raleway-Bold', serif;
+  text-align: left;
+  color: #3B4C5D;
+  opacity: 0.6;
+  list-style: none;
+  padding: 0;
+}
+#_infos-modal .modal-content .modal-body ul.tuteurs li {
+  float: left;
+  margin-right: 28px;
+}
+
+.modal-header {
+    display: contents !important;
+}
+
+span.badge {
+    min-width: 3rem;
+    padding: 0 6px;
+    margin-left: 14px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 22px;
+    height: 22px;
+    color: #757575;
+    float: none !important;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

@@ -1,0 +1,245 @@
+
+/* ---- Page d'arrivée ---- */
+
+.conteneur {
+  width: 500px;
+  height: 100px;
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+.conteneur a {
+  color: #222;
+}
+
+.conteneur .choix {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  margin-right: 50px;
+  border: 1px solid #DDD;
+  border-radius: 50%;
+  transition: all .2s;
+  position: relative;
+}
+
+.conteneur .choix span {
+  display: flex;
+  -webkit-display : flex;
+  opacity: 0;
+  transition: all .3s;
+  margin-top: 7px;
+  border: 1px solid #DDD;
+}
+
+.conteneur .choix span::before {
+  display: block;
+  content: "";
+  color: #FFF;
+  background-color: #FFF;
+  height: 12px;
+  width: 12px;
+  transform: rotate(45deg);
+  border-top: 1px solid #DDD;
+  border-left: 1px solid #DDD;
+  position: absolute;
+  margin: -6px calc(50% - 6px);
+}
+
+.conteneur .choix:hover {
+  cursor: pointer;
+  background-color: #FF5660;
+  border-color: #FF5660;
+}
+
+.conteneur .choix:hover span {
+  opacity: 1;
+}
+
+.conteneur .choix i {
+  font-size: 45px;
+  line-height: 100px;
+  transition: all .2s;
+}
+
+.conteneur .choix:hover i {
+  color: #FFF;
+}
+
+/* ---- Par tuteur ---- */
+
+#masque {
+  width: 100%;
+  height: calc(100% - 110px);
+  background-color: rgba(0, 0, 0, .6);
+  position: absolute;
+  display: none;
+  z-index: 5;
+}
+
+
+.semaine {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 1200px;
+  margin: 50px auto;
+  z-index: 10;
+}
+
+.jour, .horaires {
+  width: 200px;
+  float: left;
+  height: 40px;
+  border: 1px solid #ddd;
+}
+
+.nom {
+  text-align: center;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-size: 18px;
+  background-color: #fff;
+}
+
+.heure {
+  width: 200px;
+  height: 50px;
+  background-color: #fff;
+  text-align: center;
+  line-height: 50px;
+  border: 1px solid #ddd;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.heure > span {
+  line-height: 45px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.idk {
+  background-color: #fff;
+}
+
+.dispo {
+  background-color: #82f799;
+}
+
+.abs {
+  background-color: #d15954;
+}
+
+.conteneur {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.tuteurs {
+  margin: 0 auto;
+  width: 400px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.09);
+  min-height: 40px;
+  text-align: center;
+}
+
+.load {
+  font-size: 25px;
+  color: #FF5660;
+  line-height: 40px;
+}
+
+.load i {
+  margin-right: 5px;
+}
+
+.tuteur {
+  display: inline-block;
+  width: 300px;
+  text-transform: capitalize;
+  height: 30px;
+  line-height: 30px;
+  margin: 8px;
+  font-size: 18px;
+  border-bottom: 2px solid #EEE;
+  transition: all .2s;
+}
+
+.tuteur:hover {
+  cursor: pointer;
+  background-color: #FF5660;
+  color: #FFF;
+}
+
+/* ---- Par créneau ---- */
+
+.semaine-creneau {
+  width: 1200px;
+  margin: 50px auto;
+  z-index: 10;
+}
+
+.count {
+  width: 100%;
+  height: 100%;
+}
+
+.tuteursCreneau {
+  display: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 200px;
+  height: 0;
+  overflow: auto;
+  z-index: 15;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  color: #FF5660;
+}
+
+.tuteursCreneau:hover {
+  cursor: default;
+}
+
+.tuteursCreneau li {
+  line-height: 30px;
+  text-transform: capitalize;
+  padding: 0;
+  list-style: none;
+}
+
+/* ---- Media Query ---- */
+
+@media screen and (max-width: 480px), screen and (max-width: 550px){
+
+  .option {
+    width: 90%;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  .option {
+    width: 90%;
+  }
+
+  #creneau .text {
+    line-height: 30px;
+    margin-top: 50px;
+    font-size: 1em;
+  }
+
+}

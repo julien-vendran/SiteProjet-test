@@ -1,0 +1,10 @@
+{
+  "version" : "0.1",
+  "name" : "Affecter un projet à une soutenance",
+  "level" : [
+    "4"
+  ],
+  "icon" : "soutenance.png",
+  "Date" : "24/11/2015",
+  "lastUpdate" : "24/11/2015"
+}

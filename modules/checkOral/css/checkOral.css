@@ -1,0 +1,9 @@
+
+.horaire {
+  border: 1px solid #DDD;
+  height: 80px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  line-height: 80px;
+}

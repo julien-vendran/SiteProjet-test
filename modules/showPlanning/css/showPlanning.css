@@ -1,0 +1,169 @@
+a.download {
+  display: inline-block;
+  font-size: 30px;
+  line-height: 40px;
+  font-family: 'Raleway-Light';
+  padding: 20px 50px;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  color: #ff5660;
+}
+
+a.download:hover {
+  text-decoration: none;
+}
+
+a.download img {
+  height: 30px;
+}
+
+
+#planning {
+  list-style: none;
+  padding: 0; margin: 0;
+  width: 100%;
+}
+
+#planning ul {
+  list-style: none;
+  padding: 0;
+}
+
+#planning ul > li.title {
+  background: #E1E4E6;
+  font-size: 15px;
+  line-height: 30px;
+  padding: 5px;
+  color: #3B4C5D;
+  border-top: 1px solid #3B4C5D;
+  border-bottom: 1px solid #3B4C5D;
+}
+
+#planning ul > li:not(.title) {
+  background: #FAFAFA;
+  font-size: 17px;
+  padding: 20px;
+}
+
+#planning ul > li:not(.title) > span.day {
+  display: inline-block;
+  width: 50px; height: 50px;
+  color: #FFFFFF;
+  text-align: center;
+  background: #FF5661;
+  border: 1px solid #E85055;
+  border-radius: 50%;
+}
+
+#planning ul > li:not(.title) > span.day .w {
+  line-height: 20px;
+  font-size: 10px;
+  display: block;
+}
+
+#planning ul > li:not(.title) > span.day .d {
+  line-height: 40px;
+  font-size: 20px;
+  display: block;
+  margin-top: -10px;
+}
+
+#planning ul > li:not(.title) > span.title {
+  display: block;
+  position: relative;
+  margin-top: -50px;
+  margin-left: 60px;
+  line-height: 50px;
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 17px;
+  color: #3B4C5D;
+  font-weight: 500;
+}
+
+#planning ul > li:not(.title) > span.hour {
+  display: inline-block;
+  float: left;
+  margin-top: -18px;
+  margin-left: 60px;
+  line-height: 20px;
+  font-size: 13px;
+  color: #748D9A;
+  font-weight: 500;
+}
+
+#planning ul > li:not(.title) > span.desc {
+  display: block;
+  margin-top: 10px;
+  line-height: 20px;
+  font-size: 15px;
+  padding-left: 60px;
+  color: #748D9A;
+  font-weight: 300;
+}
+
+#_export-modal .modal-body ul, #_tuto-modal .modal-body ul {
+  list-style: none;
+  padding: 0;
+}
+#_export-modal .modal-body li, #_tuto-modal .modal-body li {
+  font-size: 15px;
+  line-height: 25px;
+  text-align: justify;
+  display: block;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  color: #748D9A;
+  padding-bottom: 25px;
+}
+#_export-modal .modal-body li:hover, #_tuto-modal .modal-body li:hover {
+  background: #FAFAFA;
+}
+#_export-modal .modal-body li .title, #_tuto-modal .modal-body li .title {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+  line-height: 50px;
+  color: #333333;
+}
+#_export-modal .modal-body li img, #_tuto-modal .modal-body li img {
+  height: 30px; width: 30px;
+  margin: 10px;
+  float: left;
+}
+#_export-modal .modal-body li a, #_tuto-modal .modal-body li a {
+  display: inline-block;
+  width: 100%;
+  color: #748D9A;
+}
+#_export-modal .modal-body li a:hover, #_tuto-modal .modal-body li a:hover {
+  text-decoration: none;
+}
+
+.tuto .modal-body ol {
+  list-style: none;
+  padding: 0;
+}
+.tuto .modal-body ol li {
+  margin-bottom: 20px;
+}
+.tuto .modal-body ol li .desc {
+  display: block;
+  text-align: left;
+  font-size: 16px;
+  padding-left: 15px;
+  color: #748D9A;
+  margin-bottom: 10px;
+}
+.tuto .modal-body ol li img {
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid transparent;
+}
+.tuto .modal-body ol li img:hover {
+  border-color: #ff5660;
+}

@@ -1,0 +1,10 @@
+{
+  "version" : "0.1",
+  "name" : "Import des utilisateurs LDAP",
+  "level" : [
+    "4"
+  ],
+  "icon" : "ldap.png",
+  "Date" : "24/11/2015",
+  "lastUpdate" : "24/11/2015"
+}
