@@ -1,0 +1,6 @@
+La BD n'est pas en BCNF.
+
+La table "Groupe" n'est pas optimisé.
+Il faudrai avec une table
+Groupe(idGroupe,AnnéeAffectation,idProjet)
+Et une table(idgroupe,login,estChef)

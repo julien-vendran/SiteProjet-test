@@ -1,0 +1,3 @@
+
+Si (level 3): alors on affiche que les projet où il est tutueur.
+Sinon : affiche tous les projets affectés

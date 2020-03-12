@@ -1,0 +1,5 @@
+php/getMembers:
+
+La requete SQL n'est pas optimisé.
+ En effet, deux requetes sont effectuer alors qu'une requete
+ imbriquer limiterai les echanges avec la BD.
