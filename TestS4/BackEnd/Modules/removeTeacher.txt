@@ -1,0 +1,4 @@
+ModelProf.php:
+
+Non sécurisé !!!!!!!!!!!!!!!!!!
+Pas besoin d'être connecter pour lister/ supprimer un enseignant

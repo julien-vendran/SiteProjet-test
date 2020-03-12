@@ -4,7 +4,7 @@
 Modules ajoutés:
 histo projet --fait
 edit mail -- fait
-sup prof
+sup prof --fait
 check groupe ---fait
-crée son groupe
+crée son groupe --fait
 confirmer groupe

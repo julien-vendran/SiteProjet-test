@@ -1,0 +1,10 @@
+addGroupe.php:
+
+      $sqlid = "SELECT idGroupe
+                FROM GroupeProjet
+                WHERE chefGroupe = :chefGroupe";
+
+Si, il a déjà été chef de groupe, le requete retourne plusieurs lignes, ce qui fait planté la requete suivante.
+On peut imaginé que c'est quelqu'un qui redouble, ou qui à fait le DUT puis une LP.
+Il faudrai récupéré le dernier idGroupe ajouté à la table groupe pour s'assurer que la requete ne retournera qu'une ligne.
+
