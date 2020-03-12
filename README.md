@@ -2,8 +2,8 @@
 
 
 Modules ajoutés:
-histo projet
-edit mail
+histo projet --fait
+edit mail -- fait
 sup prof
 check groupe ---fait
 crée son groupe

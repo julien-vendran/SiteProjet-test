@@ -1,0 +1,16 @@
+Pas de structuration:
+PHP
+CSS
+
+Les pages ne sont pas sécurisé avec une obligation de connexion.
+
+
+create.php :
+
+balise <form> </from> : erreur de frape qui fait que la balise form n'est pas fermé correctement.
+
+
+-----
+ModelEmail.php:
+Pas de try/catch dans les methodes...
+
