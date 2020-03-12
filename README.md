@@ -5,6 +5,6 @@ Modules ajoutés:
 histo projet
 edit mail
 sup prof
-check groupe
+check groupe ---fait
 crée son groupe
 confirmer groupe

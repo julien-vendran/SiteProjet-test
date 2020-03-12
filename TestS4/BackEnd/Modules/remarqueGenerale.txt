@@ -1,0 +1,16 @@
+Chaque modules, à comme aboressences:
+[nomModule]
+    ->css
+    ->js
+    ->php
+    index.php
+    info.json
+    search.php (peut surrement être factorisé)
+
+
+-------
+Les requires ne sont pas standardisés. Avec _DIR_ par exemples
+----
+Il y as un fichier PHP par méthodes...
+----
+Au niveau des index, il y a redondance dans le header. Il pourrait y avoir un header commun.
